@@ -76,8 +76,10 @@ function AniSearch() {
   }
   const handleChange = e => {
     if (e.target.value === 'Character') {
+      setSearchData("")
       setSearchType(e.target.value);
     } else if (e.target.value === 'Staff') {
+      setSearchData("")
       setSearchType(e.target.value);
     }
   }
